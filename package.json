@@ -23,5 +23,16 @@
   "homepage": "https://github.com/indratanaya/Automated-Conventional-Commits-Demo#readme",
   "dependencies": {
     "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "commitlint": "^18.6.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.0.10"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
