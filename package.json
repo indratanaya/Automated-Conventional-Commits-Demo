@@ -1,0 +1,27 @@
+{
+  "name": "automated-conventional-commits-demo",
+  "version": "1.0.0",
+  "description": "A simple project to demonstrate the implementation of automated conventional commits.",
+  "scripts": {
+    "start": "http-server ./src -a localhost -p 3000 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indratanaya/Automated-Conventional-Commits-Demo.git"
+  },
+  "keywords": [
+    "Conventional Commits",
+    "Commitizen",
+    "Commitlint",
+    "Husky"
+  ],
+  "author": "Indra Tanaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indratanaya/Automated-Conventional-Commits-Demo/issues"
+  },
+  "homepage": "https://github.com/indratanaya/Automated-Conventional-Commits-Demo#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
